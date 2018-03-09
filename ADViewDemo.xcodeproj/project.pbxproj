@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46D6E3F4CBC1EB2237E5F30D /* libPods-ADViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0023C42071079AE74FE833 /* libPods-ADViewDemo.a */; };
 		C0207CD0204F796A005148DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0207CCF204F796A005148DA /* AppDelegate.m */; };
 		C0207CD3204F796A005148DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0207CD2204F796A005148DA /* ViewController.m */; };
 		C0207CD6204F796A005148DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0207CD4204F796A005148DA /* Main.storyboard */; };
 		C0207CD8204F796A005148DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0207CD7204F796A005148DA /* Assets.xcassets */; };
 		C0207CDB204F796A005148DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0207CD9204F796A005148DA /* LaunchScreen.storyboard */; };
 		C0207CDE204F796A005148DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0207CDD204F796A005148DA /* main.m */; };
+		C0207CE6204F7A13005148DA /* ADView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0207CE4204F7A12005148DA /* ADView.m */; };
+		C0207CE8204F803A005148DA /* 2222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0207CE7204F803A005148DA /* 2222.jpg */; };
+		C0207CEC204F8759005148DA /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0207CEB204F8759005148DA /* ADViewController.m */; };
+		C0207D08204FC920005148DA /* ADImageHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = C0207D07204FC920005148DA /* ADImageHandle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95C1C8C5D246512E6EA9F34A /* Pods-ADViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADViewDemo/Pods-ADViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C0207CCB204F796A005148DA /* ADViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0207CCE204F796A005148DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0207CCF204F796A005148DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +32,16 @@
 		C0207CDA204F796A005148DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0207CDC204F796A005148DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0207CDD204F796A005148DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0207CE4204F7A12005148DA /* ADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADView.m; sourceTree = "<group>"; };
+		C0207CE5204F7A13005148DA /* ADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADView.h; sourceTree = "<group>"; };
+		C0207CE7204F803A005148DA /* 2222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2222.jpg; sourceTree = "<group>"; };
+		C0207CEA204F8759005148DA /* ADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
+		C0207CEB204F8759005148DA /* ADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
+		C0207CED204FC1B8005148DA /* MainConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainConfigure.h; sourceTree = "<group>"; };
+		C0207D06204FC920005148DA /* ADImageHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADImageHandle.h; sourceTree = "<group>"; };
+		C0207D07204FC920005148DA /* ADImageHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADImageHandle.m; sourceTree = "<group>"; };
+		E1E1B7718758088A68A0A35F /* Pods-ADViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADViewDemo/Pods-ADViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FE0023C42071079AE74FE833 /* libPods-ADViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ADViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D6E3F4CBC1EB2237E5F30D /* libPods-ADViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82A81783143356A6923F8BA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1E1B7718758088A68A0A35F /* Pods-ADViewDemo.debug.xcconfig */,
+				95C1C8C5D246512E6EA9F34A /* Pods-ADViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C0207CC2204F796A005148DA = {
 			isa = PBXGroup;
 			children = (
 				C0207CCD204F796A005148DA /* ADViewDemo */,
 				C0207CCC204F796A005148DA /* Products */,
+				82A81783143356A6923F8BA4 /* Pods */,
+				D383360F9C855007ACC0D619 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +86,7 @@
 		C0207CCD204F796A005148DA /* ADViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C0207CE9204F8057005148DA /* ADPage */,
 				C0207CCE204F796A005148DA /* AppDelegate.h */,
 				C0207CCF204F796A005148DA /* AppDelegate.m */,
 				C0207CD1204F796A005148DA /* ViewController.h */,
@@ -71,6 +100,29 @@
 			path = ADViewDemo;
 			sourceTree = "<group>";
 		};
+		C0207CE9204F8057005148DA /* ADPage */ = {
+			isa = PBXGroup;
+			children = (
+				C0207CE7204F803A005148DA /* 2222.jpg */,
+				C0207CE5204F7A13005148DA /* ADView.h */,
+				C0207CE4204F7A12005148DA /* ADView.m */,
+				C0207CEA204F8759005148DA /* ADViewController.h */,
+				C0207CEB204F8759005148DA /* ADViewController.m */,
+				C0207CED204FC1B8005148DA /* MainConfigure.h */,
+				C0207D06204FC920005148DA /* ADImageHandle.h */,
+				C0207D07204FC920005148DA /* ADImageHandle.m */,
+			);
+			path = ADPage;
+			sourceTree = "<group>";
+		};
+		D383360F9C855007ACC0D619 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE0023C42071079AE74FE833 /* libPods-ADViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0207CE1204F796A005148DA /* Build configuration list for PBXNativeTarget "ADViewDemo" */;
 			buildPhases = (
+				F4F5BC200A56C3FFA69EAF8A /* [CP] Check Pods Manifest.lock */,
 				C0207CC7204F796A005148DA /* Sources */,
 				C0207CC8204F796A005148DA /* Frameworks */,
 				C0207CC9204F796A005148DA /* Resources */,
+				38443C43D5B0CF18EF591B79 /* [CP] Embed Pods Frameworks */,
+				69D3B4495EA803FF766834BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,19 +187,71 @@
 				C0207CDB204F796A005148DA /* LaunchScreen.storyboard in Resources */,
 				C0207CD8204F796A005148DA /* Assets.xcassets in Resources */,
 				C0207CD6204F796A005148DA /* Main.storyboard in Resources */,
+				C0207CE8204F803A005148DA /* 2222.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38443C43D5B0CF18EF591B79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADViewDemo/Pods-ADViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69D3B4495EA803FF766834BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADViewDemo/Pods-ADViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4F5BC200A56C3FFA69EAF8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C0207CC7204F796A005148DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0207D08204FC920005148DA /* ADImageHandle.m in Sources */,
 				C0207CD3204F796A005148DA /* ViewController.m in Sources */,
 				C0207CDE204F796A005148DA /* main.m in Sources */,
 				C0207CD0204F796A005148DA /* AppDelegate.m in Sources */,
+				C0207CE6204F7A13005148DA /* ADView.m in Sources */,
+				C0207CEC204F8759005148DA /* ADViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +383,7 @@
 		};
 		C0207CE2204F796A005148DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E1B7718758088A68A0A35F /* Pods-ADViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -284,12 +392,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fenglee.ADViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C0207CE3204F796A005148DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C1C8C5D246512E6EA9F34A /* Pods-ADViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,7 +407,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fenglee.ADViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

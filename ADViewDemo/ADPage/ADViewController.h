@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ADViewController.h
 //  ADViewDemo
 //
 //  Created by 李峰 on 2018/3/7.
@@ -7,11 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ADView.h"
 
+@interface ADViewController : UIViewController
 
-@interface ViewController : UIViewController <LFAdViewDelegate>
-
+@property(nonatomic, copy) NSString *adUrl;
 
 @end
-

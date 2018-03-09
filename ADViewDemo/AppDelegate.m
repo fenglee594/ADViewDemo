@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "ADImageHandle.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    ViewController *vc = [[ViewController alloc] init];
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = nc;
+    [self.window makeKeyAndVisible];
+    
+//    ADView *adView = [[ADView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    adView.delegate = vc;
+//    [adView show];
+    [ADImageHandle setupWithVC:vc];
+    
     return YES;
 }
 
